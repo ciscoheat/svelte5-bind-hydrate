@@ -1,3 +1,3 @@
 <script lang="ts">
-	export let output: (string[] | undefined)[] = [];
+	export let output: string[] = [];
 </script>
