@@ -5,7 +5,15 @@
 
 <Log bind:output />
 
-<!-- Removing Output: makes it work -->
+<!-- Removing "Output:" or the #if block makes it work -->
 <pre>
-Output: {#if output}{output.join('\n')}{/if}
+Output: {#if output}{output}{/if}
+</pre>
+
+<pre>
+{#if output}{output}{/if}
+</pre>
+
+<pre>
+Output:
 </pre>
