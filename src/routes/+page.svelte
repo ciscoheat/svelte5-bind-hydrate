@@ -34,6 +34,16 @@ Output: {#if output}{output}{/if}
 Output: {output}
 </pre>
 
+<!-- Does not work with the output prop inside an element either -->
+
+<!-- Fails -->
+<span>Output:</span><span
+	>{#if output}{output}{/if}</span
+>
+
+<!-- Fails -->
+<span>Output:</span> <span>{output}</span>
+
 <!-- Testing output.length works! -->
 
 <!-- OK -->
