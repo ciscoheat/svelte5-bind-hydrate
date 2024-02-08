@@ -15,5 +15,5 @@ Output: {#if output}{output}{/if}
 </pre>
 
 <pre>
-Output:
+Output: {output}
 </pre>
